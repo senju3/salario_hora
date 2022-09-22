@@ -1,0 +1,13 @@
+CÓDIGOS USADOS NA APLICAÇÃO
+    - .value
+        Para pegar os valores dos inputs
+    - parseInt 
+        Para transformar string em número inteiro
+    - Operadores matemáticos 
+        Multiplicação e Divisão
+    - Concatenação 
+        `texto ${variável}`
+    - document.createElement('elemento')
+        Para criar um elemento diretamente do js
+    - pai.appendChild(tal_elemento)
+        Para adicionar tal elemento como filho 
