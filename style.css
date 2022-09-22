@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 150px;
+}
+form {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    flex-direction: column;
+    background-color: red;
+}
