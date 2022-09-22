@@ -1,3 +1,22 @@
+Lógica da aplicação
+    -> Quero descobrir o salário/hora de um funcionário com base no seu salário mensal e horas por mês trabalhadas.
+        Quais são os dados de entrada necessários ?
+        - salário mensal
+        - horas por dia trabalhadas
+        - dias por mês trabalhado
+        O que devo fazer com estes dados ?
+        - Devo usar eles para calcular o valor hora que um funcionário recebe usando o calculo -> (Horas/Dia * Dias/Meses) / salário mensal
+        Quais são as restrições desse problema ?
+        - Os valores devem ser entregue somento no formato salário/hora
+        Qual é o resultado esperado ?
+        - O valor hora que um funcionário recebe
+        Qual é a sequência de passos a serem feitas para chegar ao resultado esperado ?
+        - input salario_mensal
+        - input horas/dia
+        - input dias/mês
+        - valor_hora = (horas/dia * dias/mês) / salario_mensal
+        - print valor_hora
+
 CÓDIGOS USADOS NA APLICAÇÃO
     - .value
         Para pegar os valores dos inputs
@@ -7,7 +26,10 @@ CÓDIGOS USADOS NA APLICAÇÃO
         Multiplicação e Divisão
     - Concatenação 
         `texto ${variável}`
+    - elemento.innerText =
+        Para inserir texto/valor do elemento ou modificar
     - document.createElement('elemento')
         Para criar um elemento diretamente do js
     - pai.appendChild(tal_elemento)
         Para adicionar tal elemento como filho 
+    
